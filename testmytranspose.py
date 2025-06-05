@@ -43,3 +43,6 @@ non_numeric_keys = [k for k in test_dict if not isinstance(k, int)]
 for key in numeric_keys + non_numeric_keys:
     show_before_after(key, test_dict[key])
 
+print("hello world!")
+
+print("my name is v1")
